@@ -1,0 +1,24 @@
+.task-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input-form {
+  outline: none;
+  min-width: clamp(8rem, 12vw, 20rem);
+  min-height: clamp(2rem, 2vw, 6rem);
+}
+
+.input-submit {
+  background: rebeccapurple;
+  border-radius: 2px;
+  padding: 0.5rem;
+  color: white;
+  font-size: 600;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.input-submit:hover {
+  background: rgb(79, 15, 143);
+}
