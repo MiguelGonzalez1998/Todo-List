@@ -17,7 +17,7 @@ const Todo = () => {
       setEditingText("");
     }
   };
-
+  console.log("gola");
   return (
     <div className="list-group">
       {todos.map(({ txt, id, completed }) => (
